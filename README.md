@@ -6,7 +6,7 @@ The ability to detect the caps lock key can improve the usability of web applica
 ## Changes From [Stephen Morley's](http://code.stephenmorley.org/javascript/detecting-the-caps-lock-key/) version
 
 If the caps lock key is detected as being On and we detect a keydown from the capslock key (code 20) then immediately change the state to off.
-This should prevent confusion that may occur with the any indicators still registering as on. Even when the physical key is off.
+This should prevent confusion that may occur with any indicators still registering as on. Even when the physical key is off.
 
 ## Installation
 Link to the file using a script element in the head of your page:
